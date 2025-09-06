@@ -11,6 +11,7 @@ class Header(BasePage):
     CONTINUE    = (By.XPATH, "//a[text()='Continue']")  # after logout success
 
 
+
     # Actions
     def open_register(self):
         self.click(self.MY_ACCOUNT)
